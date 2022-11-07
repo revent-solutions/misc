@@ -1,0 +1,19 @@
+yolov5 오픈소스 참고 https://github.com/ultralytics/yolov5
+U-2-Net 오픈소스 참고 https://github.com/xuebinqin/U-2-Net
+
+학습방법 - 송부예정
+
+onnx 변경 방법 - python export.py --data data/container.yaml --weight best.pt --includ onnx
+
+U-2-Net
+
+convert.py onnx 변환
+onnx_infernece.py onnx 결과 확인
+
+C# 코드에 들어간 ONNX는 detection 은 yolov5를 학습시켰고, U-2-Net은 Forward 함수를 변경하여 원하시는 output을 낼수있도록 변경했습니다(convert.py 참고)
+
+AI성능 테스트영상은 https://drive.google.com/file/d/1eimiP8QFGZ1Ac5wu50PWXjDalVkZ9PrV/view?usp=sharing
+를 참고해주시길 바라고,
+segmentation에 대한 영상은 이미지 첨부로 대체하겠습니다.
+
+감사합니다.
